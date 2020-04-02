@@ -20,27 +20,47 @@ Flavian Imlig <flavian.imlig@bi.zh.ch>, Bildungsdirektion, Bildungsplanung
 
 ## Indikatorenbeschreibung
 
-(Es sind mehrere Indikatoren möglich, hier ist nur einer definiert)
+Die Indikatoren beschreiben die durch die Gemeinden bewilligten Kindertagesstätten und Krippen. Nicht erfasst sind Kindertagesstätten und Krippen in der Stadt Zürich.
 
 [topic] Bildung
 
-[variable_short] betreuung_kitas
-
-[variable_long] Betreute Kinder in Kindertagesstätten
-
 [location] ZH
 
-[unit] Anzahl
+[update] wöchentlich
 
-[update] (zu definieren)
+[public] Ja
 
 [description] https://github.com/bildungsmonitoringZH/covid19_ajb
 
-## Open data 
+### Betreute Kinder
 
-Kann die Variable OGD gestellt werden?
+Erfasst wird die durchschnittliche Anzahl betreuter Kinder in einer Kalenderwoche.
 
-[public] (zu defnieren)
+[variable_short] betreuung_kitas
+
+[variable_long] Betreute Kinder in Kindertagesstätten und Krippen
+
+[unit] Anzahl
+
+### Auslastung
+
+Die Auslastung beschreibt, wie viele der angemeldeten Kinder ihre Plätze in den Kindertagesstätten und Krippen in Anspruch nehmen.
+
+[variable_short] auslastung_kitas
+
+[variable_long] Auslastung der Kindertagesstätten und Krippen
+
+[unit] Anteil
+
+### Geschlossene Kindertagesstätten
+
+Anzahl der aktuell aufgrund der Corona-Krise geschlossenen Krippen.
+
+[variable_short] geschlossene_kitas
+
+[variable_long] Geschlossene Kindertagesstätten und Krippen
+
+[unit] Anzahl
 
 ## Struktur der Basisdaten
 
