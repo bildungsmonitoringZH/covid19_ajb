@@ -22,6 +22,8 @@ Flavian Imlig <flavian.imlig@bi.zh.ch>, Bildungsdirektion, Bildungsplanung
 
 Die Indikatoren beschreiben die durch die Gemeinden des Kantons Zürich bewilligten Kindertagesstätten. Nicht erfasst sind Kindertagesstätten in der Stadt Zürich.
 
+Als Datum ist jeweils der Freitag einer Kalenderwoche angegeben. Die Indikatoren repräsentieren einen Durchschnittswert der entsprechenden Woche (Montag bis Freitag).
+
 [topic] Bildung
 
 [location] ZH
