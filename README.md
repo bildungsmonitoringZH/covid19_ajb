@@ -14,7 +14,7 @@ Daten des AJB im Rahmen des Projekts [Gesellschaftsmonitoring COVID19](https://s
 
 ## Beteiligte
 
-André Woodtli <andre.woodtli@ajb.zh.ch>, Bildungsdirektion, Amt für Jugend und Berufsberatung
+Roman Avogaro <roman.avogaro@ajb.zh.ch>, Bildungsdirektion, Amt für Jugend und Berufsberatung
 
 Flavian Imlig <flavian.imlig@bi.zh.ch>, Bildungsdirektion, Bildungsplanung
 
