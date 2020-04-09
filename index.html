@@ -375,47 +375,47 @@ summary {
 </div>
 <div id="beteiligte" class="section level2">
 <h2>Beteiligte</h2>
-<p>André Woodtli <a href="mailto:andre.woodtli@ajb.zh.ch" class="email">andre.woodtli@ajb.zh.ch</a>, Bildungsdirektion, Amt für Jugend und Berufsberatung</p>
+<p>Roman Avogaro <a href="mailto:roman.avogaro@ajb.zh.ch" class="email">roman.avogaro@ajb.zh.ch</a>, Bildungsdirektion, Amt für Jugend und Berufsberatung</p>
 <p>Flavian Imlig <a href="mailto:flavian.imlig@bi.zh.ch" class="email">flavian.imlig@bi.zh.ch</a>, Bildungsdirektion, Bildungsplanung</p>
 </div>
 <div id="indikatorenbeschreibung" class="section level2">
 <h2>Indikatorenbeschreibung</h2>
 <p>Die Indikatoren beschreiben die durch die Gemeinden des Kantons Zürich bewilligten Kindertagesstätten. Nicht erfasst sind Kindertagesstätten in der Stadt Zürich.</p>
-<p>Als Datum ist jeweils der Freitag einer Kalenderwoche angegeben. Die Indikatoren repräsentieren einen Durchschnittswert der entsprechenden Woche (Montag bis Freitag).</p>
+<p>Als Datum ist jeweils der Montag einer Kalenderwoche angegeben. Die Indikatoren repräsentieren einen Durchschnittswert der entsprechenden Woche (Montag bis Freitag).</p>
 <p>[topic] Bildung</p>
 <p>[location] ZH</p>
 <p>[update] wöchentlich</p>
 <p>[public] Ja</p>
-<p>[description] <a href="https://github.com/bildungsmonitoringZH/covid19_ajb" class="uri">https://github.com/bildungsmonitoringZH/covid19_ajb</a></p>
+<p>[description] <a href="https://bildungsmonitoringzh.github.io/covid19_edu_ajb" class="uri">https://bildungsmonitoringzh.github.io/covid19_edu_ajb</a></p>
 <div id="betreute-kinder" class="section level3">
 <h3>Betreute Kinder</h3>
 <p>Erfasst wird die durchschnittliche Anzahl betreuter Kinder in einer Kalenderwoche.</p>
-<p>[variable_short] betreuung_kitas</p>
-<p>[variable_long] Betreute Kinder in Kindertagesstätten</p>
+<p>[variable_short] kitas_betreuung</p>
+<p>[variable_long] Wochenmittelwert betreuter Kinder in Kindertagesstätten</p>
 <p>[unit] Anzahl</p>
 </div>
 <div id="auslastung" class="section level3">
 <h3>Auslastung</h3>
 <p>Die Auslastung beschreibt, wie viele der angemeldeten Kinder ihre Plätze in den Kindertagesstätten in Anspruch nehmen.</p>
-<p>[variable_short] auslastung_kitas</p>
-<p>[variable_long] Auslastung der Kindertagesstätten</p>
+<p>[variable_short] kitas_auslastung</p>
+<p>[variable_long] Auslastung der Kindertagesstätten im Wochenmittelwert</p>
 <p>[unit] Anteil</p>
 </div>
 <div id="geschlossene-kindertagesstätten" class="section level3">
 <h3>Geschlossene Kindertagesstätten</h3>
 <p>Anzahl der aktuell aufgrund der Corona-Krise geschlossenen Kindertagesstätten.</p>
-<p>[variable_short] geschlossene_kitas</p>
+<p>[variable_short] kitas_geschlossen</p>
 <p>[variable_long] Geschlossene Kindertagesstätten</p>
 <p>[unit] Anzahl</p>
 </div>
 </div>
-<div id="struktur-der-basisdaten" class="section level2">
-<h2>Struktur der Basisdaten</h2>
-<p>(zu definieren)</p>
-</div>
 <div id="vorgehen" class="section level2">
 <h2>Vorgehen</h2>
-<p>(zu definieren)</p>
+<ul>
+<li>Das AJB erhebt die Daten der Vorwoche telefonisch direkt bei den Kindertagesstätten.</li>
+<li>Manuelles Update des Rohdatenfiles <code>data/kita.csv</code> durch das AJB, in der Regel einmal pro Woche.</li>
+<li>Datenstruktur für Covid19-Monitoring wird durch ein R-Skript generiert, automatisch ausgeführt bei jedem Update von des Rohdatenfiles.</li>
+</ul>
 </div>
 </div>
 

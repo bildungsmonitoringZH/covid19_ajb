@@ -1,4 +1,4 @@
-"date","kw","betreuung_kitas","auslastung_kitas","geschlossene_kitas","comment"
-"2020-03-20",12,1620,27,5,"init"
-"2020-03-27",13,2103,30,10,"init"
-"2020-04-03",14,2538,35,14,"init"
+"date","kw","kitas_betreuung","kitas_auslastung","kitas_geschlossen","comment"
+"2020-03-16",12,1620,27,5,"ra"
+"2020-03-23",13,2103,30,10,"fi"
+"2020-03-30",14,2538,35,14,"ra"

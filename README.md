@@ -22,7 +22,7 @@ Flavian Imlig <flavian.imlig@bi.zh.ch>, Bildungsdirektion, Bildungsplanung
 
 Die Indikatoren beschreiben die durch die Gemeinden des Kantons Zürich bewilligten Kindertagesstätten. Nicht erfasst sind Kindertagesstätten in der Stadt Zürich.
 
-Als Datum ist jeweils der Freitag einer Kalenderwoche angegeben. Die Indikatoren repräsentieren einen Durchschnittswert der entsprechenden Woche (Montag bis Freitag).
+Als Datum ist jeweils der Montag einer Kalenderwoche angegeben. Die Indikatoren repräsentieren einen Durchschnittswert der entsprechenden Woche (Montag bis Freitag).
 
 [topic] Bildung
 
@@ -32,15 +32,15 @@ Als Datum ist jeweils der Freitag einer Kalenderwoche angegeben. Die Indikatoren
 
 [public] Ja
 
-[description] https://github.com/bildungsmonitoringZH/covid19_ajb
+[description] https://bildungsmonitoringzh.github.io/covid19_edu_ajb
 
 ### Betreute Kinder
 
 Erfasst wird die durchschnittliche Anzahl betreuter Kinder in einer Kalenderwoche.
 
-[variable_short] betreuung_kitas
+[variable_short] kitas_betreuung
 
-[variable_long] Betreute Kinder in Kindertagesstätten
+[variable_long] Wochenmittelwert betreuter Kinder in Kindertagesstätten
 
 [unit] Anzahl
 
@@ -48,9 +48,9 @@ Erfasst wird die durchschnittliche Anzahl betreuter Kinder in einer Kalenderwoch
 
 Die Auslastung beschreibt, wie viele der angemeldeten Kinder ihre Plätze in den Kindertagesstätten in Anspruch nehmen.
 
-[variable_short] auslastung_kitas
+[variable_short] kitas_auslastung
 
-[variable_long] Auslastung der Kindertagesstätten
+[variable_long] Auslastung der Kindertagesstätten im Wochenmittelwert
 
 [unit] Anteil
 
@@ -58,16 +58,14 @@ Die Auslastung beschreibt, wie viele der angemeldeten Kinder ihre Plätze in den
 
 Anzahl der aktuell aufgrund der Corona-Krise geschlossenen Kindertagesstätten.
 
-[variable_short] geschlossene_kitas
+[variable_short] kitas_geschlossen
 
 [variable_long] Geschlossene Kindertagesstätten 
 
 [unit] Anzahl
 
-## Struktur der Basisdaten
-
-(zu definieren)
-
 ## Vorgehen
 
-(zu definieren)
+* Das AJB erhebt die Daten der Vorwoche telefonisch direkt bei den Kindertagesstätten.
+* Manuelles Update des Rohdatenfiles `data/kita.csv` durch das AJB, in der Regel einmal pro Woche.
+* Datenstruktur für Covid19-Monitoring wird durch ein R-Skript generiert, automatisch ausgeführt bei jedem Update von des Rohdatenfiles.
