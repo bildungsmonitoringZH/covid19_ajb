@@ -51,6 +51,7 @@ getRawData <- function(file)
     data_raw <- read.csv(file)
     
     data <- data_raw %>% 
+        mutate_at('kitas_auslastung', ~.x / 100) %>%
         select(.data$date, dplyr::matches('^kitas')) %>% 
                    gather('variable_short', 'value', -.data$date)
 }
@@ -77,6 +78,9 @@ testTable <- function(df)
     assert_that(identical(names(df), df_spec$name))
     
     purrr::pwalk(as.list(df_spec), ~assert_that(is(get(.x, df), .y)))
+    
+    v <- df %>% filter(.data$unit %in% 'Anteil') %>% pull(.data$value)
+    assert_that(all(v <= 1))
     
     return(invisible(NULL))
 }
