@@ -4,6 +4,11 @@
 # Date: 16.04.2020
 ###############################################################################
 
+library(tidyr)
+library(dplyr)
+library(jsonlite)
+library(assertthat)
+
 initData <- function()
 {
     .Deprecated(new = 'no replacement')
@@ -20,25 +25,14 @@ initData <- function()
 # load metadata function
 getMetadata <- function(file)
 {
-    if( missing(file) ) file <- 'README.md'
+    if( missing(file) ) file <- 'data/kita_meta.json'
     assert_that(is.string(file))
     assert_that(file.exists(file))
     
-    meta_raw <- read.table(file, header = FALSE, sep = '|', as.is = TRUE, fileEncoding = 'UTF-8')
-    meta_pattern <- stri_conv('^\\[(\\w+)] ([\\w \u00E4\u00F6\u00FC\\-\\:\\.\\/\\?\\=\\,]+)', to = 'UTF-8')
-    meta_match <- str_match(meta_raw$V1, regex(meta_pattern, ignore_case = TRUE))
-    
-    df_spec <- readRDS(url('https://github.com/bildungsmonitoringZH/covid19_edu_mindsteps/raw/master/df_spec.rds'))
-    
-    meta_raw <- meta_match %>% as.data.frame(stringsAsFactors = FALSE) %>%
-        select('name' := 2, 'v' := 3) %>%
-        filter(.data$name %in% df_spec$name) %>%
-        mutate_at('v', ~replace(.x, str_which(.x, 'undefiniert'), NA) %>% str_trim())
-    
-    meta_t <- purrr::map(intersect(df_spec$name, meta_raw$name), 
-                   ~meta_raw %>% filter(.data$name %in% .x) %>% select(.data$v) %>% rename(!!.x := .data$v))
-    
-    meta <- purrr::reduce(meta_t, cbind)
+    meta_raw <- read_json(file, simplifyVector = F)
+    meta_t <- lapply(meta_raw, as.character)
+    meta <- as.data.frame(meta_t, stringsAsFactors = F)
+    return(meta)
 }
 
 # load raw data
@@ -52,7 +46,7 @@ getRawData <- function(file)
     
     data <- data_raw %>% 
         mutate_at('kitas_auslastung', ~.x / 100) %>%
-        select(.data$date, dplyr::matches('^kitas')) %>% 
+        select(.data$date, matches('^kitas')) %>% 
                    gather('variable_short', 'value', -.data$date)
 }
 
