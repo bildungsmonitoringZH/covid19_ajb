@@ -67,7 +67,7 @@ Anzahl der aktuell aufgrund der Corona-Krise geschlossenen Kindertagesstätten.
 ## Vorgehen
 
 * Das AJB erhebt die Daten wöchentlich telefonisch, oder durch die Kindertagesstätten erfolgte selbständige Meldung per Mail.
-* Die Befragung bezieht sich auf unterschiedlichen Wochentage statt um die traditionell unterschiedliche Inanspruchnahme auszugleichen.
+* Die Befragung findet jeweils an verschiednen Wochentage statt um die traditionell unterschiedliche Inanspruchnahme auszugleichen.
 * Es wird abgefragt: Anzahl an diesem Tag der Befragung angemeldeten Kinder, Anzahl der tatsächlich anwesenden Kinder.
 * Manuelles Update des Rohdatenfiles `data/kita.csv` durch das AJB, in der Regel einmal pro Woche.
-* Datenstruktur für Covid19-Monitoring wird durch ein R-Skript generiert, automatisch ausgeführt bei jedem Update von des Rohdatenfiles.
+* Datenstruktur für Covid19-Monitoring wird durch ein R-Skript generiert, automatisch ausgeführt bei jedem Update des Rohdatenfiles.
