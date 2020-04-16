@@ -2,7 +2,7 @@
 pagetitle: Gesellschaftsmonitoring COVID19, Daten AJB
 ---
 
-![](https://github.com/bildungsmonitoringZH/covid19_edu_mindsteps/raw/master/assets/ktzh_bi_logo_de-300x88.jpg)
+![](https://github.com/bildungsmonitoringZH/bildungsmonitoringZH.github.io/raw/master/assets/ktzh_bi_logo_de-300x88.jpg)
 
 # Gesellschaftsmonitoring COVID19, Daten Amt für Jugend und Berufsberatung 
 
@@ -67,7 +67,19 @@ Anzahl der aktuell aufgrund der Corona-Krise geschlossenen Kindertagesstätten.
 ## Vorgehen
 
 * Das AJB erhebt die Daten wöchentlich telefonisch, oder durch die Kindertagesstätten erfolgte selbständige Meldung per Mail.
-* Die Befragung findet jeweils an verschiednen Wochentage statt um die traditionell unterschiedliche Inanspruchnahme auszugleichen.
+* Die Befragung findet jeweils an verschiedenen Wochentagen statt um die traditionell unterschiedliche Inanspruchnahme auszugleichen.
 * Es wird abgefragt: Anzahl an diesem Tag der Befragung angemeldeten Kinder, Anzahl der tatsächlich anwesenden Kinder.
 * Manuelles Update des Rohdatenfiles `data/kita.csv` durch das AJB, in der Regel einmal pro Woche.
 * Datenstruktur für Covid19-Monitoring wird durch ein R-Skript generiert, automatisch ausgeführt bei jedem Update des Rohdatenfiles.
+
+## Rücklauf
+
+Woche | Anzahl erfasste KITAs (Kanton, ohne Stadt Zürich)
+----- | -----
+KW 12 (16. - 20. März) | NA
+KW 13 (23. - 27. März) | 305
+KW 14 (30. März - 3. April) | NA
+KW 15 (6. - 10. April) | 0 (Karwoche: keine Datenerhebung)
+KW 16 (13. - 17. April) | NA
+
+(aktualisiert 16.04.2020)
