@@ -20,7 +20,7 @@ jobs:
     - uses: r-lib/actions/setup-r@master
     - name: Install R dependencies
       run: |
-        install.packages("tidyverse")
+        install.packages(c("tidyverse","assertthat"))
       shell: Rscript {0}
       
     # Prepare data
