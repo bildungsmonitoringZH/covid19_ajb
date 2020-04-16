@@ -1,7 +1,7 @@
 # prepare AJB KITA data for monitoring covid19
 #
 # Authors: Flavian Imlig <flavian.imlig@bi.zh.ch>
-# Date: 9.04.2020
+# Date: 16.04.2020
 ###############################################################################
 
 initData <- function()
@@ -48,7 +48,7 @@ getRawData <- function(file)
     assert_that(is.string(file))
     assert_that(file.exists(file))
 
-    data_raw <- read.csv(file)
+    data_raw <- read.csv(file, as.is = T)
     
     data <- data_raw %>% 
         mutate_at('kitas_auslastung', ~.x / 100) %>%
@@ -79,7 +79,7 @@ testTable <- function(df)
     
     purrr::pwalk(as.list(df_spec), ~assert_that(is(get(.x, df), .y)))
     
-    v <- df %>% filter(.data$unit %in% 'Anteil') %>% pull(.data$value)
+    v <- df %>% filter(.data$unit %in% 'Anteil') %>% pull(.data$value) %>% na.omit()
     assert_that(all(v <= 1))
     
     return(invisible(NULL))
