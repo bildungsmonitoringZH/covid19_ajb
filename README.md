@@ -4,13 +4,13 @@ pagetitle: Gesellschaftsmonitoring COVID19, Daten AJB
 
 ![](https://github.com/bildungsmonitoringZH/covid19_edu_mindsteps/raw/master/assets/ktzh_bi_logo_de-300x88.jpg)
 
-# Gesellschaftsmonitoring COVID19, Daten Amt für Jugend und Berufsberatung (AJB)
+# Gesellschaftsmonitoring COVID19, Daten Amt für Jugend und Berufsberatung 
 
-Daten des AJB im Rahmen des Projekts [Gesellschaftsmonitoring COVID19](https://statistikzh.github.io/covid19monitoring/)
+Daten des AJB (Amt für Jugend und Berufsberatung) im Rahmen des Projekts [Gesellschaftsmonitoring COVID19](https://statistikzh.github.io/covid19monitoring/)
 
 ## Datenlieferant
 
-[source] Kanton Zürich, Amt für Jugend und Berufsberatung
+[source] Kanton Zürich, Amt für Jugend und Berufsberatung 
 
 ## Beteiligte
 
