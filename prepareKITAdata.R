@@ -9,19 +9,6 @@ library(dplyr)
 library(jsonlite)
 library(assertthat)
 
-initData <- function()
-{
-    .Deprecated(new = 'no replacement')
-    idata <- tibble('date' := '2020-03-27',
-           'kw' := 13,
-           'betreuung_kitas' := 2103,
-           'auslastung_kitas' := 30,
-           'geschlossene_kitas' := 10,
-           'comment' = 'init')
-    
-    write.csv(idata, file = 'data/kita.csv', fileEncoding = 'UTF-8', row.names = F)
-}
-
 # load metadata function
 getMetadata <- function(file)
 {
