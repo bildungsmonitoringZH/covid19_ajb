@@ -77,7 +77,7 @@ Anzahl der aktuell aufgrund der Corona-Krise geschlossenen Kindertagesstätten.
 Woche | Rücklauf KITAs (Kanton, ohne Stadt Zürich)
 ----- | -----
 KW 12 (16. - 20. März) | 99
-KW 13 (23. - 27. März) | 314
+KW 13 (23. - 27. März) | 311/314
 KW 14 (30. März - 3. April) | NA (keine Datenerhebung)
 KW 15 (6. - 10. April) | 339  
 KW 16 (13. - 17. April) | NA (keine Datenerhebung)
