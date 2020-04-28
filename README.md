@@ -66,7 +66,7 @@ Anzahl der aktuell aufgrund der Corona-Krise geschlossenen Kindertagesstätten.
 
 ## Vorgehen
 
-* Das AJB erhebt die Daten wöchentlich telefonisch, oder durch die Kindertagesstätten erfolgte selbständige Meldung per Mail.
+* Das AJB erhebt die Daten in der Regel wöchentlich telefonisch, oder durch die Kindertagesstätten erfolgte selbständige Meldung per Mail.
 * Die Befragung findet jeweils an verschiedenen Wochentagen statt um die traditionell unterschiedliche Inanspruchnahme auszugleichen.
 * Es wird abgefragt: Anzahl an diesem Tag der Befragung angemeldeten Kinder, Anzahl der tatsächlich anwesenden Kinder.
 * Manuelles Update des Rohdatenfiles `data/kita.csv` durch das AJB, in der Regel einmal pro Woche.
@@ -74,12 +74,14 @@ Anzahl der aktuell aufgrund der Corona-Krise geschlossenen Kindertagesstätten.
 
 ## Rücklauf
 
-Woche | Anzahl erfasste KITAs (Kanton, ohne Stadt Zürich)
+Woche | Rücklauf KITAs (Kanton, ohne Stadt Zürich)
 ----- | -----
-KW 12 (16. - 20. März) | NA
-KW 13 (23. - 27. März) | 305
+KW 12 (16. - 20. März) | 99
+KW 13 (23. - 27. März) | 314
 KW 14 (30. März - 3. April) | NA
-KW 15 (6. - 10. April) | 0 (Karwoche: keine Datenerhebung)
-KW 16 (13. - 17. April) | NA
+KW 15 (6. - 10. April) | 339 
+KW 16 (13. - 17. April) | NA (keine Datenerhebung)
+KW 17 (20. - 24. April) | NA (keine Datenerhebung)
+KW 18 (27. April - 1. Mai)| 
 
-(aktualisiert 16.04.2020)
+(aktualisiert 28.04.2020)
