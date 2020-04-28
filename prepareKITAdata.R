@@ -1,7 +1,7 @@
 # prepare AJB KITA data for monitoring covid19
 #
 # Authors: Flavian Imlig <flavian.imlig@bi.zh.ch>
-# Date: 16.04.2020
+# Date: 28.04.2020
 ###############################################################################
 
 library(tidyr)
@@ -47,7 +47,8 @@ getData <- function()
     
     data <- data_raw %>% left_join(meta, by = 'variable_short') %>%
         mutate_at('date', ~as.POSIXct(as.character(.x))) %>%
-        select(df_spec$name)
+        select(df_spec$name) %>%
+        filter(!is.na(.data$topic))
 }
 
 # test result function
