@@ -22,13 +22,13 @@ Flavian Imlig <flavian.imlig@bi.zh.ch>, Bildungsdirektion, Bildungsplanung
 
 Die Indikatoren beschreiben die 373 durch die Gemeinden des Kantons Zürich bewilligten Kindertagesstätten. Nicht erfasst sind Kindertagesstätten in der Stadt Zürich.
 
-Als Datum ist jeweils der Montag einer Kalenderwoche angegeben. Die Indikatoren repräsentieren einen Durchschnittswert der entsprechenden Woche (Montag bis Freitag).
+Als Datum wird der jeweilige Erhebungstag angegeben. Die Indikatoren repräsentieren unterschiedliche Stichtage der entsprechenden Woche. Damit wird der traditionell unterschiedlichen Nutzung der KITAs an den jeweiligen Wochentagen Rechung getragen. 
 
 [topic] Bildung
 
 [location] ZH
 
-[update] wöchentlich
+[update] in der Regel wöchentlich
 
 [public] Ja
 
@@ -36,31 +36,31 @@ Als Datum ist jeweils der Montag einer Kalenderwoche angegeben. Die Indikatoren 
 
 ### Betreute Kinder
 
-Erfasst wird die durchschnittliche Anzahl betreuter Kinder in einer Kalenderwoche.
+Erfasst wird die Anzahl betreuter Kinder am Stichtag.
 
 [variable_short] kitas_betreuung
 
-[variable_long] Wochenmittelwert betreuter Kinder in Kindertagesstätten
+[variable_long] Anzahl betreuter Kinder am Stichtag in Kindertagesstätten
 
 [unit] Anzahl
 
 ### Auslastung
 
-Die Auslastung beschreibt, wie viele der angemeldeten Kinder ihre Plätze in den Kindertagesstätten in Anspruch nehmen.
+Die Auslastung beschreibt, wie viele der am Stichtag angemeldeten Kinder ihre Plätze in den Kindertagesstätten in Anspruch nehmen.
 
 [variable_short] kitas_auslastung
 
-[variable_long] Auslastung der Kindertagesstätten im Wochenmittelwert
+[variable_long] Auslastung der Kindertagesstätten
 
 [unit] Anteil
 
 ### Geschlossene Kindertagesstätten
 
-Anzahl der aktuell aufgrund der Corona-Krise geschlossenen Kindertagesstätten.
+Anzahl der aktuell aufgrund der Corona-Krise vorübergehend geschlossenen Kindertagesstätten. Mögliche Gründe für die Schliessung: Einbruch der Nachfrage, Personalmangel aufgrund covid-19-erkrankter Mitarbeitender.  
 
 [variable_short] kitas_geschlossen
 
-[variable_long] Geschlossene Kindertagesstätten 
+[variable_long] vorübergehend geschlossene Kindertagesstätten 
 
 [unit] Anzahl
 
