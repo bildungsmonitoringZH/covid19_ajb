@@ -22,13 +22,13 @@ Flavian Imlig <flavian.imlig@bi.zh.ch>, Bildungsdirektion, Bildungsplanung
 
 Die Indikatoren beschreiben die 373 durch die Gemeinden des Kantons Zürich bewilligten Kindertagesstätten. Nicht erfasst sind Kindertagesstätten in der Stadt Zürich.
 
-Als Datum ist jeweils der Montag einer Kalenderwoche angegeben. Die Indikatoren repräsentieren einen Durchschnittswert der entsprechenden Woche (Montag bis Freitag).
+Als Datum wird der jeweilige Erhebungstag angegeben. Die Indikatoren repräsentieren unterschiedliche Stichtage der entsprechenden Woche. Damit wird der traditionell unterschiedlichen Nutzung der KITAs an den jeweiligen Wochentagen Rechung getragen. 
 
 [topic] Bildung
 
 [location] ZH
 
-[update] wöchentlich
+[update] in der Regel wöchentlich
 
 [public] Ja
 
@@ -36,50 +36,52 @@ Als Datum ist jeweils der Montag einer Kalenderwoche angegeben. Die Indikatoren 
 
 ### Betreute Kinder
 
-Erfasst wird die durchschnittliche Anzahl betreuter Kinder in einer Kalenderwoche.
+Erfasst wird die Anzahl betreuter Kinder am Stichtag.
 
 [variable_short] kitas_betreuung
 
-[variable_long] Wochenmittelwert betreuter Kinder in Kindertagesstätten
+[variable_long] Anzahl betreuter Kinder am Stichtag in Kindertagesstätten
 
 [unit] Anzahl
 
 ### Auslastung
 
-Die Auslastung beschreibt, wie viele der angemeldeten Kinder ihre Plätze in den Kindertagesstätten in Anspruch nehmen.
+Die Auslastung beschreibt, wie viele der am Stichtag angemeldeten Kinder ihre Plätze in den Kindertagesstätten in Anspruch nehmen.
 
 [variable_short] kitas_auslastung
 
-[variable_long] Auslastung der Kindertagesstätten im Wochenmittelwert
+[variable_long] Auslastung der Kindertagesstätten
 
 [unit] Anteil
 
 ### Geschlossene Kindertagesstätten
 
-Anzahl der aktuell aufgrund der Corona-Krise geschlossenen Kindertagesstätten.
+Anzahl der aktuell aufgrund der Corona-Krise vorübergehend geschlossenen Kindertagesstätten. Mögliche Gründe für die Schliessung: Einbruch der Nachfrage, Personalmangel aufgrund covid-19-erkrankter Mitarbeitender.  
 
 [variable_short] kitas_geschlossen
 
-[variable_long] Geschlossene Kindertagesstätten 
+[variable_long] vorübergehend geschlossene Kindertagesstätten 
 
 [unit] Anzahl
 
 ## Vorgehen
 
-* Das AJB erhebt die Daten wöchentlich telefonisch, oder durch die Kindertagesstätten erfolgte selbständige Meldung per Mail.
+* Das AJB erhebt die Daten in der Regel wöchentlich telefonisch, oder durch die Kindertagesstätten erfolgte selbständige Meldung per Mail.
 * Die Befragung findet jeweils an verschiedenen Wochentagen statt um die traditionell unterschiedliche Inanspruchnahme auszugleichen.
-* Es wird abgefragt: Anzahl an diesem Tag der Befragung angemeldeten Kinder, Anzahl der tatsächlich anwesenden Kinder.
+* Es wird abgefragt: Anzahl der am Tag der Befragung angemeldeten Kinder, Anzahl der tatsächlich anwesenden Kinder.
 * Manuelles Update des Rohdatenfiles `data/kita.csv` durch das AJB, in der Regel einmal pro Woche.
 * Datenstruktur für Covid19-Monitoring wird durch ein R-Skript generiert, automatisch ausgeführt bei jedem Update des Rohdatenfiles.
 
 ## Rücklauf
 
-Woche | Anzahl erfasste KITAs (Kanton, ohne Stadt Zürich)
+Woche | Rücklauf KITAs (Kanton, ohne Stadt Zürich)
 ----- | -----
-KW 12 (16. - 20. März) | NA
-KW 13 (23. - 27. März) | 305
-KW 14 (30. März - 3. April) | NA
-KW 15 (6. - 10. April) | 0 (Karwoche: keine Datenerhebung)
-KW 16 (13. - 17. April) | NA
+KW 12 (16. - 20. März) | 99
+KW 13 (23. - 27. März) | 311/314
+KW 14 (30. März - 3. April) | NA (keine Datenerhebung)
+KW 15 (6. - 10. April) | 339  
+KW 16 (13. - 17. April) | NA (keine Datenerhebung)
+KW 17 (20. - 24. April) | NA (keine Datenerhebung)
+KW 18 (27. April - 1. Mai)| 
 
-(aktualisiert 16.04.2020)
+(aktualisiert 28.04.2020)
