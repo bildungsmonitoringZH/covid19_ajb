@@ -3,9 +3,9 @@
 name: Update data
 
 on:
-  push:
-    paths:
-    - 'data/kita.csv'
+#  push:
+#    paths:
+#    - 'data/kita.csv'
 
 jobs:
   update_data:
