@@ -82,6 +82,6 @@ KW 14 (30. März - 3. April) | NA (keine Datenerhebung)
 KW 15 (6. - 10. April) | 339  
 KW 16 (13. - 17. April) | NA (keine Datenerhebung)
 KW 17 (20. - 24. April) | NA (keine Datenerhebung)
-KW 18 (27. April - 1. Mai)| 
+KW 18 (27. April - 1. Mai)| 313
 
 (aktualisiert 28.04.2020)
