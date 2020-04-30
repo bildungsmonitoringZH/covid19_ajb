@@ -48,7 +48,8 @@ getData <- function()
     data <- data_raw %>% left_join(meta, by = 'variable_short') %>%
         mutate_at('date', ~as.POSIXct(as.character(.x))) %>%
         select(df_spec$name) %>%
-        filter(!is.na(.data$topic))
+        filter(!is.na(.data$topic),
+               .data$date > as.Date('2020-03-20'))
 }
 
 # test result function

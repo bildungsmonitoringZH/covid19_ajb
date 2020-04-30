@@ -10,7 +10,7 @@ Daten des AJB (Amt für Jugend und Berufsberatung) im Rahmen des Projekts [Gesel
 
 ## Datenlieferant
 
-[source] Kanton Zürich, Amt für Jugend und Berufsberatung 
+Kanton Zürich, Amt für Jugend und Berufsberatung 
 
 ## Beteiligte
 
@@ -22,19 +22,9 @@ Flavian Imlig <flavian.imlig@bi.zh.ch>, Bildungsdirektion, Bildungsplanung
 
 Die Indikatoren beschreiben die 373 durch die Gemeinden des Kantons Zürich bewilligten Kindertagesstätten. Nicht erfasst sind Kindertagesstätten in der Stadt Zürich.
 
-Als Datum wird der jeweilige Erhebungstag angegeben. Die Indikatoren repräsentieren unterschiedliche Stichtage der entsprechenden Woche. Damit wird der traditionell unterschiedlichen Nutzung der KITAs an den jeweiligen Wochentagen Rechung getragen. 
+Die telefonische Erhebung findet rund einmal wöchentlich statt. Dabei wird der Wochentag bewusst variiert um der traditionell unterschiedlichen Nutzung der KITAs an den jeweiligen Wochentagen Rechung zu tragen.
 
-[topic] Bildung
-
-[location] ZH
-
-[update] in der Regel wöchentlich
-
-[public] Ja
-
-[description] https://bildungsmonitoringzh.github.io/covid19_edu_ajb
-
-### Betreute Kinder
+### Betreute Kinder in Kindertagesstätten
 
 Erfasst wird die Anzahl betreuter Kinder am Stichtag.
 
@@ -44,7 +34,7 @@ Erfasst wird die Anzahl betreuter Kinder am Stichtag.
 
 [unit] Anzahl
 
-### Auslastung
+### Auslastung der Kindertagesstätten
 
 Die Auslastung beschreibt, wie viele der am Stichtag angemeldeten Kinder ihre Plätze in den Kindertagesstätten in Anspruch nehmen.
 
@@ -54,9 +44,9 @@ Die Auslastung beschreibt, wie viele der am Stichtag angemeldeten Kinder ihre Pl
 
 [unit] Anteil
 
-### Geschlossene Kindertagesstätten
+### Vorübergehend geschlossene Kindertagesstätten
 
-Anzahl der aktuell aufgrund der Corona-Krise vorübergehend geschlossenen Kindertagesstätten. Mögliche Gründe für die Schliessung: Einbruch der Nachfrage, Personalmangel aufgrund covid-19-erkrankter Mitarbeitender.  
+Anzahl der am Stichtag aufgrund der Corona-Krise vorübergehend geschlossenen Kindertagesstätten. Mögliche Gründe für die Schliessung: Einbruch der Nachfrage, Personalmangel aufgrund covid-19-erkrankter Mitarbeitender.  
 
 [variable_short] kitas_geschlossen
 
@@ -74,14 +64,13 @@ Anzahl der aktuell aufgrund der Corona-Krise vorübergehend geschlossenen Kinder
 
 ## Rücklauf
 
-Woche | Rücklauf KITAs (Kanton, ohne Stadt Zürich)
+Stichtag | Rücklauf KITAs (Kanton, ohne Stadt Zürich)
 ----- | -----
-KW 12 (16. - 20. März) | 99
-KW 13 (23. - 27. März) | 311/314
-KW 14 (30. März - 3. April) | NA (keine Datenerhebung)
-KW 15 (6. - 10. April) | 339  
-KW 16 (13. - 17. April) | NA (keine Datenerhebung)
-KW 17 (20. - 24. April) | NA (keine Datenerhebung)
-KW 18 (27. April - 1. Mai)| 313
+2020-03-23 | 311
+2020-03-26 | 314
+KW 14 | keine Erhebung
+2020-04-07 | 339
+KW 16 & 17 | keine Erhebung (Ostern)
+2020-04-28 | 313
 
-(aktualisiert 28.04.2020)
+(aktualisiert 29.04.2020)
