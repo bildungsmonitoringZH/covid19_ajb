@@ -30,8 +30,6 @@ Erfasst wird die Anzahl betreuter Kinder am Stichtag.
 
 [variable_short] kitas_betreuung
 
-[variable_long] Anzahl betreuter Kinder am Stichtag in Kindertagesstätten
-
 [unit] Anzahl
 
 ### Auslastung der Kindertagesstätten
@@ -40,8 +38,6 @@ Die Auslastung beschreibt, wie viele der am Stichtag angemeldeten Kinder ihre Pl
 
 [variable_short] kitas_auslastung
 
-[variable_long] Auslastung der Kindertagesstätten
-
 [unit] Anteil
 
 ### Vorübergehend geschlossene Kindertagesstätten
@@ -49,8 +45,6 @@ Die Auslastung beschreibt, wie viele der am Stichtag angemeldeten Kinder ihre Pl
 Anzahl der am Stichtag aufgrund der Corona-Krise vorübergehend geschlossenen Kindertagesstätten. Mögliche Gründe für die Schliessung: Einbruch der Nachfrage, Personalmangel aufgrund covid-19-erkrankter Mitarbeitender.  
 
 [variable_short] kitas_geschlossen
-
-[variable_long] vorübergehend geschlossene Kindertagesstätten 
 
 [unit] Anzahl
 
