@@ -2,7 +2,7 @@
 pagetitle: Gesellschaftsmonitoring COVID19, Daten AJB
 ---
 
-![](https://github.com/bildungsmonitoringZH/bildungsmonitoringZH.github.io/raw/master/assets/ktzh_bi_logo_de-300x88.jpg)
+![](../bildungsmonitoringZH.github.io/assets/ktzh_bi_logo_de-300x88.jpg)
 
 # Gesellschaftsmonitoring COVID19, Daten Amt für Jugend und Berufsberatung 
 
@@ -24,7 +24,7 @@ Die Indikatoren beschreiben die 369 durch die Gemeinden des Kantons Zürich bewi
 
 Die Erhebung findet rund einmal wöchentlich statt. Dabei wird der Wochentag bewusst variiert um der traditionell unterschiedlichen Nutzung der KITAs an den jeweiligen Wochentagen Rechung zu tragen.
 
-### Betreute Kinder in Kindertagesstätten
+### betreute Kinder in Kindertagesstätten
 
 Erfasst wird die Anzahl betreuter Kinder am Stichtag.
 
@@ -40,7 +40,7 @@ Die Auslastung beschreibt, wie viele der am Stichtag angemeldeten Kinder ihre Pl
 
 [unit] Anteil
 
-### Vorübergehend geschlossene Kindertagesstätten
+### vorübergehend geschlossene Kindertagesstätten
 
 Anzahl der am Stichtag aufgrund der Corona-Krise vorübergehend geschlossenen Kindertagesstätten. Mögliche Gründe für die Schliessung: Einbruch der Nachfrage, Personalmangel aufgrund covid-19-erkrankter Mitarbeitender.  
 
