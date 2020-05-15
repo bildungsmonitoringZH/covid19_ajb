@@ -20,7 +20,7 @@ Flavian Imlig <flavian.imlig@bi.zh.ch>, Bildungsdirektion, Bildungsplanung
 
 ## Indikatorenbeschreibung
 
-Die Indikatoren beschreiben die 373 durch die Gemeinden des Kantons Zürich bewilligten Kindertagesstätten. Nicht erfasst sind Kindertagesstätten in der Stadt Zürich.
+Die Indikatoren beschreiben die 369 durch die Gemeinden des Kantons Zürich bewilligten Kindertagesstätten. Nicht erfasst sind Kindertagesstätten in der Stadt Zürich.
 
 Die Erhebung findet rund einmal wöchentlich statt. Dabei wird der Wochentag bewusst variiert um der traditionell unterschiedlichen Nutzung der KITAs an den jeweiligen Wochentagen Rechung zu tragen.
 
@@ -66,5 +66,6 @@ KW 14 | keine Erhebung
 2020-04-07 | 339
 KW 16 & 17 | keine Erhebung (Ostern)
 2020-04-28 | 313
+2020-05-14 | 333
 
-(aktualisiert 29.04.2020)
+(aktualisiert 15.05.2020)
