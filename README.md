@@ -67,5 +67,6 @@ KW 14 | keine Erhebung
 KW 16 & 17 | keine Erhebung (Ostern)
 2020-04-28 | 313
 2020-05-14 | 333
+2020-05-28 | 192
 
-(aktualisiert 15.05.2020)
+(aktualisiert 03.06.2020)
