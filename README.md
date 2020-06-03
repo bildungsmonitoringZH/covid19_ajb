@@ -22,7 +22,7 @@ Flavian Imlig <flavian.imlig@bi.zh.ch>, Bildungsdirektion, Bildungsplanung
 
 Die Indikatoren beschreiben die 369 durch die Gemeinden des Kantons Zürich bewilligten Kindertagesstätten. Nicht erfasst sind Kindertagesstätten in der Stadt Zürich.
 
-Die Erhebung findet rund einmal wöchentlich statt. Dabei wird der Wochentag bewusst variiert um der traditionell unterschiedlichen Nutzung der KITAs an den jeweiligen Wochentagen Rechung zu tragen.
+Die Erhebung fand zu Beginn des Lockdowns einmal wöchentlich, ab April alle zwei Wochen statt. Dabei wird der Wochentag bewusst variiert um der traditionell unterschiedlichen Nutzung der KITAs an den jeweiligen Wochentagen Rechung zu tragen.
 
 ### betreute Kinder in Kindertagesstätten
 
@@ -50,7 +50,7 @@ Anzahl der am Stichtag aufgrund der Corona-Krise vorübergehend geschlossenen Ki
 
 ## Vorgehen
 
-* Das AJB erhebt die Daten in der Regel wöchentlich telefonisch oder per E-Mail (selbständige Meldung durch die Kindertagesstätten).
+* Das AJB erhebt die Daten telefonisch oder per E-Mail (selbständige Meldung durch die Kindertagesstätten).
 * Die Befragung findet jeweils an verschiedenen Wochentagen statt um die traditionell unterschiedliche Inanspruchnahme auszugleichen.
 * Es wird abgefragt: Anzahl der am Stichtag angemeldeten Kinder, Anzahl der tatsächlich anwesenden Kinder.
 * Manuelles Update des Rohdatenfiles `data/kita.csv` durch das AJB, in der Regel einmal pro Woche.
